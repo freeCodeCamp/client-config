@@ -1,0 +1,9 @@
+/*
+
+!.gitignore
+
+**/.DS_Store
+**.log
+
+!serve.json
+!www/

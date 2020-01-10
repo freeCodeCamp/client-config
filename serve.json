@@ -1,7 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/**", "destination": "/index.html" }
-  ],
+  "rewrites": [{ "source": "/**", "destination": "/index.html" }],
   "directoryListing": false,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "renderSingle": true
 }

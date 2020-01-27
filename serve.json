@@ -1,5 +1,4 @@
 {
-  "rewrites": [{ "source": "/**", "destination": "/index.html" }],
   "directoryListing": false,
   "trailingSlash": false,
   "renderSingle": true

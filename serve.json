@@ -1,4 +1,7 @@
 {
   "directoryListing": false,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/certification/**", "destination": "/certification/index.html" }
+  ]
 }

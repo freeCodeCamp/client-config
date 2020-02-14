@@ -1,2 +1,2 @@
-# deploy-client
+# client-config
 > deployment config for client

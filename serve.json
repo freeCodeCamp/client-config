@@ -3,5 +3,21 @@
   "trailingSlash": false,
   "rewrites": [
     { "source": "/certification/**", "destination": "/certification/index.html" }
+  ],
+  "headers": [
+    {
+      "source" : "**/*.@(js|css|woff)",
+      "headers" : [{
+        "key" : "Cache-Control",
+        "value" : "public, max-age=31536000, immutable"
+      }]
+    },
+    {
+      "source" : "**/sass.sync.js",
+      "headers" : [{
+        "key" : "Cache-Control",
+        "value" : "no-cache"
+      }]
+    }
   ]
 }

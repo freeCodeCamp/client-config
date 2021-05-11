@@ -6,7 +6,7 @@
   ],
   "headers": [
     {
-      "source" : "**/*.@(js|css|woff)",
+      "source" : "**/*.@(js|css|woff|png|ttf)",
       "headers" : [{
         "key" : "Cache-Control",
         "value" : "public, max-age=31536000, immutable"

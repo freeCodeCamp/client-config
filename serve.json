@@ -5,6 +5,19 @@
     { "source": "/certification/**", "destination": "/certification/index.html" }
   ],
   "redirects": [
+    { "source": "/challenges", "destination": "/learn" },
+    {
+      "source": "/challenges/:superblock",
+      "destination": "/learn/:superblock"
+    },
+    {
+      "source": "/challenges/:superblock/:block",
+      "destination": "/learn/:superblock/:block"
+    },
+    {
+      "source": "/challenges/:superblock/:block/:challenge",
+      "destination": "/learn/:superblock/:block/:challenge"
+    },
     {
       "source": "/learn/apis-and-microservices",
       "destination": "/learn/back-end-development-and-apis"

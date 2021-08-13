@@ -40,6 +40,14 @@
     {
       "source": "/certification/:username/front-end-libraries",
       "destination": "/certification/:username/front-end-development-libraries"
+    },
+    {
+      "source": "/learn/javascript-algorithms-and-data-structures/es6/explore-differences-between-the-var-and-let-keywords",
+      "destination": "/learn/javascript-algorithms-and-data-structures/basic-javascript/explore-differences-between-the-var-and-let-keywords"
+    },
+    {
+      "source": "/learn/javascript-algorithms-and-data-structures/es6/declare-a-read-only-variable-with-the-const-keyword",
+      "destination": "/learn/javascript-algorithms-and-data-structures/basic-javascript/declare-a-read-only-variable-with-the-const-keyword"
     }
   ]
 }

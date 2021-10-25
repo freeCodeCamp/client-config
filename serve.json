@@ -40,6 +40,10 @@
     {
       "source": "/certification/:username/front-end-libraries",
       "destination": "/certification/:username/front-end-development-libraries"
+    },
+    {
+      "source": "/learn/responsive-web-design/applied-visual-design/adjust-the-size-of-a-header-versus-a-paragraph-tag",
+      "destination": "/learn/responsive-web-design/applied-visual-design/adjust-the-size-of-a-heading-element-versus-a-paragraph-element"
     }
   ]
 }

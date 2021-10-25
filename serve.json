@@ -48,6 +48,10 @@
     {
       "source": "/learn/javascript-algorithms-and-data-structures/es6/declare-a-read-only-variable-with-the-const-keyword",
       "destination": "/learn/javascript-algorithms-and-data-structures/basic-javascript/declare-a-read-only-variable-with-the-const-keyword"
+    },
+    {
+      "source": "/learn/responsive-web-design/applied-visual-design/adjust-the-size-of-a-header-versus-a-paragraph-tag",
+      "destination": "/learn/responsive-web-design/applied-visual-design/adjust-the-size-of-a-heading-element-versus-a-paragraph-element"
     }
   ]
 }

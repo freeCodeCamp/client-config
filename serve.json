@@ -2,7 +2,7 @@
   "directoryListing": false,
   "headers": [
     {
-      "source": "{**/*.html,**/app-data.json, **/page-data.json}",
+      "source": "{**/*.html,**/app-data.json,**/page-data.json}",
       "headers": [
         {
           "key": "Cache-Control",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "source": "{misc/*.js, sw.js, css/bootstrap.min.css}",
+      "source": "{misc/*.js,sw.js,css/bootstrap.min.css}",
       "headers": [
         {
           "key": "Cache-Control",

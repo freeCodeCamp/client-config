@@ -11,7 +11,7 @@
       ]
     },
     {
-      "source": "{**/*.js,**/*.css}",
+      "source": "**/*.@(js|css|woff|ttf)",
       "headers": [
         {
           "key": "Cache-Control",

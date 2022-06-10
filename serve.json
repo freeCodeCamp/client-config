@@ -20,26 +20,30 @@
       ]
     },
     {
-      "source": "{misc/*.js,sw.js,css/bootstrap.min.css}",
+      "source": "{misc/*.js,sw.js}",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=0, must-revalidate"
         }
       ]
-    }, {
-      "source": "{sass.sync.js}",
+    },
+    {
+      "source": "{js/sass.sync.js,css/bootstrap.min.css}",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=172800, immutable"
+          "value": "public, max-age=3600, stale-while-revalidate=172800, must-revalidate"
         }
       ]
     }
   ],
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/certification/**", "destination": "/certification/index.html" }
+    {
+      "source": "/certification/**",
+      "destination": "/certification/index.html"
+    }
   ],
   "redirects": [
     {

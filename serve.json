@@ -233,6 +233,18 @@
     {
       "source": "/learn/full-stack-developer/lecture-importance-of-semantic-html/how-do-you-display-times-and-dates-in-html",
       "destination": "/learn/full-stack-developer/lecture-working-with-semantics-for-text-and-time/how-do-you-display-times-and-dates-in-html"
+    },
+    {
+      "source": "/learn/full-stack-developer/lecture-importance-of-semantic-html/how-do-you-display-mathematical-equations-and-chemical-formulas-in-html",
+      "destination": "/learn/full-stack-developer/lecture-working-with-specialized-semantic-elements/how-do-you-display-mathematical-equations-and-chemical-formulas-in-html"
+    },
+    {
+      "source": "/learn/full-stack-developer/lecture-importance-of-semantic-html/how-do-you-represent-computer-code-in-html",
+      "destination": "/learn/full-stack-developer/lecture-working-with-specialized-semantic-elements/how-do-you-represent-computer-code-in-html"
+    },
+    {
+      "source": "/learn/full-stack-developer/lecture-importance-of-semantic-html/what-are-the-u-s-and-ruby-elements-used-for",
+      "destination": "/learn/full-stack-developer/lecture-working-with-specialized-semantic-elements/what-are-the-u-s-and-ruby-elements-used-for"
     }
   ]
 }

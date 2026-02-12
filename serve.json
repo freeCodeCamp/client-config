@@ -457,6 +457,10 @@
     {
       "source": "/learn/full-stack-developer",
       "destination": "/learn/full-stack-developer-v9"
+    },
+    {
+      "source": "/learn/python-v9/lab-n-queens-problem/step-1",
+      "destination": "/learn/python-v9/lab-n-queens-problem/implement-the-n-queens-algorithm"
     }
   ]
 }

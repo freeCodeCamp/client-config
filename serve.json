@@ -461,6 +461,10 @@
     {
       "source": "/learn/python-v9/lab-n-queens-problem/step-1",
       "destination": "/learn/python-v9/lab-n-queens-problem/implement-the-n-queens-algorithm"
+    },
+    {
+      "source": "/learn/python-v9/lecture-understanding-variables-and-data-types/what-are-common-data-types-in-python-and-how-do-you-get-the-type-of-a-variable",
+      "destination": "/learn/python-v9/lecture-understanding-variables-and-data-types/what-are-common-data-types-in-python"
     }
   ]
 }

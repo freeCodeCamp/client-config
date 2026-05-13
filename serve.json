@@ -461,6 +461,10 @@
     {
       "source": "/learn/python-v9/lab-n-queens-problem/step-1",
       "destination": "/learn/python-v9/lab-n-queens-problem/implement-the-n-queens-algorithm"
+    },
+    {
+      "source": "/learn/python-v9/lecture-introduction-to-python/how-do-you-install-configure-and-use-python-in-your-local-environment",
+      "destination": "/learn/python-v9/lecture-python-installation/how-do-you-install-configure-and-use-python-in-your-local-environment"
     }
   ]
 }

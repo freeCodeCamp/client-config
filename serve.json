@@ -474,6 +474,22 @@
     {
       "source": "/learn/python-v9/lecture-understanding-variables-and-data-types/what-are-common-data-types-in-python-and-how-do-you-get-the-type-of-a-variable",
       "destination": "/learn/python-v9/lecture-understanding-variables-and-data-types/what-are-common-data-types-in-python"
+    },
+    {
+      "source": "/learn/foundational-c-sharp-with-microsoft/create-and-run-simple-c-sharp-console-applications/add-decision-logic-to-your-code-using-if-else-and-else-if-statements-in-c-sharp",
+      "destination": "/learn/foundational-c-sharp-with-microsoft/write-your-first-code-using-c-sharp/add-decision-logic-to-your-code-using-if-else-and-else-if-statements-in-c-sharp"
+    },
+    {
+      "source": "/learn/foundational-c-sharp-with-microsoft/write-your-first-code-using-c-sharp/perform-basic-string-formatting-in-c-sharp",
+      "destination": "/learn/foundational-c-sharp-with-microsoft/#write-your-first-code-using-c-sharp"
+    },
+    {
+      "source": "/learn/foundational-c-sharp-with-microsoft/write-your-first-code-using-c-sharp/guided-project-calculate-and-print-student-grades",
+      "destination": "/learn/foundational-c-sharp-with-microsoft/#write-your-first-code-using-c-sharp"
+    },
+    {
+      "source": "/learn/foundational-c-sharp-with-microsoft/write-your-first-code-using-c-sharp/guided-project-calculate-final-gpa",
+      "destination": "/learn/foundational-c-sharp-with-microsoft/#write-your-first-code-using-c-sharp"
     }
   ]
 }

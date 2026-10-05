@@ -472,15 +472,35 @@
     },
     {
       "source": "/learn/foundational-c-sharp-with-microsoft/write-your-first-code-using-c-sharp/perform-basic-string-formatting-in-c-sharp",
-      "destination": "/learn/foundational-c-sharp-with-microsoft/#write-your-first-code-using-c-sharp"
+      "destination": "/learn/foundational-c-sharp-with-microsoft/"
     },
     {
       "source": "/learn/foundational-c-sharp-with-microsoft/write-your-first-code-using-c-sharp/guided-project-calculate-and-print-student-grades",
-      "destination": "/learn/foundational-c-sharp-with-microsoft/#write-your-first-code-using-c-sharp"
+      "destination": "/learn/foundational-c-sharp-with-microsoft/"
     },
     {
       "source": "/learn/foundational-c-sharp-with-microsoft/write-your-first-code-using-c-sharp/guided-project-calculate-final-gpa",
-      "destination": "/learn/foundational-c-sharp-with-microsoft/#write-your-first-code-using-c-sharp"
+      "destination": "/learn/foundational-c-sharp-with-microsoft/"
+    },
+    {
+      "source": "/learn/foundational-c-sharp-with-microsoft/create-and-run-simple-c-sharp-console-applications/call-methods-from-the-dot-net-class-library-using-c-sharp",
+      "destination": "/learn/foundational-c-sharp-with-microsoft/"
+    },
+    {
+      "source": "/learn/foundational-c-sharp-with-microsoft/create-and-run-simple-c-sharp-console-applications/store-and-iterate-through-sequences-of-data-using-arrays-and-the-foreach-statement-in-c-sharp",
+      "destination": "/learn/foundational-c-sharp-with-microsoft/"
+    },
+    {
+      "source": "/learn/foundational-c-sharp-with-microsoft/create-and-run-simple-c-sharp-console-applications/create-readable-code-with-conventions-whitespace-and-comments-in-c-sharp",
+      "destination": "/learn/foundational-c-sharp-with-microsoft/"
+    },
+    {
+      "source": "/learn/foundational-c-sharp-with-microsoft/create-and-run-simple-c-sharp-console-applications/guided-project-develop-foreach-and-if-elseif-else-structures-to-process-array-data-in-c-sharp",
+      "destination": "/learn/foundational-c-sharp-with-microsoft/"
+    },
+    {
+      "source": "/learn/foundational-c-sharp-with-microsoft/create-and-run-simple-c-sharp-console-applications/challenge-project-develop-foreach-and-if-elseif-else-structures-to-process-array-data-in-c-sharp",
+      "destination": "/learn/foundational-c-sharp-with-microsoft/"
     }
   ]
 }

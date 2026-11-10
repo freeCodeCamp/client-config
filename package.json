@@ -1,0 +1,7 @@
+{
+  "name": "client-config",
+  "private": true,
+  "dependencies": {
+    "serve": "13.0.4"
+  }
+}

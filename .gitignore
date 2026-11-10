@@ -7,3 +7,9 @@
 
 !serve.json
 !www/
+
+!.dockerignore
+!Dockerfile
+!package.json
+!package-lock.json
+!fixture/

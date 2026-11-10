@@ -1,0 +1,8 @@
+*
+!Dockerfile
+!package.json
+!package-lock.json
+!serve.json
+!fixture
+!tree
+**/.DS_Store

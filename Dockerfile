@@ -8,8 +8,9 @@ RUN npm ci --omit=dev --ignore-scripts --no-audit --no-fund \
  && npm cache clean --force
 
 FROM base AS tree
-ARG TREE=fixture
+ARG TREE
 ARG CLIENT_CONFIG_COMMIT
+RUN test -n "$TREE"
 COPY ${TREE}/ /tree/
 RUN test -n "$CLIENT_CONFIG_COMMIT" \
  && rm -f /tree/stats.json \

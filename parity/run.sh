@@ -164,7 +164,8 @@ selftest() {
 	cleanup+=("dir:$work" "container:$image" "container:$reference")
 
 	docker rm -f "$image" "$reference" >/dev/null 2>&1 || true
-	docker build -q --build-arg CLIENT_CONFIG_COMMIT="$commit" -t "$tag" \
+	docker build -q --build-arg TREE=fixture \
+		--build-arg CLIENT_CONFIG_COMMIT="$commit" -t "$tag" \
 		"$repo" >/dev/null
 	docker run -d --read-only --name "$image" -p 127.0.0.1::8080 "$tag" \
 		>/dev/null

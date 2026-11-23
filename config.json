@@ -1,0 +1,57 @@
+{
+  "directoryListing": false,
+  "headers": [
+    {
+      "source": "{**/*.html,**/app-data.json,**/page-data.json}",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "{js/**/*.js,**/*-@(????????????????????????????????|????????????????????).@(js|woff|ttf|svg|png)}",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=172800, immutable"
+        }
+      ]
+    },
+    {
+      "source": "styles.????????????????????.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=172800, immutable"
+        }
+      ]
+    },
+    {
+      "source": "{misc/*.js,sw.js,python-input-sw.js}",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "manifest.webmanifest",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=86400, must-revalidate"
+        }
+      ]
+    }
+  ],
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/certification/**",
+      "destination": "/certification/index.html"
+    }
+  ]
+}

@@ -6,6 +6,10 @@
 **.log
 
 !serve.json
+!config.json
+!redirects.json
+!scripts/
+!.github/
 !www/
 
 !.dockerignore

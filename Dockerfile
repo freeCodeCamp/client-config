@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM node:24.22.2-alpine@sha256:a34ab6d7f6f4813f4d0c5469d74685604b962fbdbf5793a7bc7b4998ecb867c8 AS base
+FROM node:26.13.1-alpine@sha256:6bd9ab43c0ec0190ca7b2d193906cb8b7edf6e7f4afa43ddeccd6452710bffb5 AS base
 
 FROM base AS serve
 WORKDIR /opt/serve
@@ -16,6 +16,7 @@ RUN test -n "$CLIENT_CONFIG_COMMIT" \
  && chmod -R a+rX /tree
 
 FROM base
+RUN rm -rf /usr/local/lib/node_modules/npm /usr/local/bin/npm /usr/local/bin/npx
 ARG CLIENT_CONFIG_COMMIT
 LABEL org.freecodecamp.client-config.commit=$CLIENT_CONFIG_COMMIT
 ENV NO_UPDATE_CHECK=1

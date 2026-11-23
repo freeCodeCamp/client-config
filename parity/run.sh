@@ -8,6 +8,7 @@ self="$here/run.sh"
 sep=$'\x1f'
 fields=(status location cache-control content-type content-encoding body-sha256)
 modes=("" "gzip, br")
+vm_node_image=node:24.22.2-alpine@sha256:a34ab6d7f6f4813f4d0c5469d74685604b962fbdbf5793a7bc7b4998ecb867c8
 cleanup=()
 
 die() {
@@ -157,7 +158,7 @@ selftest() {
 	local tag=parity-selftest:latest image=parity-selftest-image
 	local reference=parity-selftest-reference node_image commit work
 	local image_url good_url bad_url
-	node_image="$(awk '$1 == "FROM" { print $2; exit }' "$repo/Dockerfile")"
+	node_image="$vm_node_image"
 	commit="$(git -C "$repo" log -1 --format=%H -- serve.json)"
 	work="$(mktemp -d)"
 	cleanup+=("dir:$work" "container:$image" "container:$reference")
